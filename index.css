@@ -2,12 +2,21 @@
 
 body {
 	margin: 0;
-  font-family: "Lexend";
+  	font-family: "Lexend";
 	background-color: #cccccc;
 	color: #000000;
 }
 
 .a {
+	font-size: 1vw;
+	position: relative;
+	width: 100vw;
+	top: 20vw;
+	transform: translateY(-50%);
+	text-align: center;
+}
+
+.b {
 	font-size: 1vw;
 	position: relative;
 	width: 100vw;
