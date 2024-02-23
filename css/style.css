@@ -1,7 +1,8 @@
 body {
 	margin: 0;
   	font-family: "Lexend";
-	background-color: #cccccc;
+	background-color: linear-gradient(to right, #d3c6d3, #c6cee0);
+	animation: moveGradient 5s linear infinite;
 	color: #000000;
 }
 
@@ -17,4 +18,13 @@ body {
 .logo-1 {
 	width: 25vw;
 	height: 25vw;
+}
+
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
 }
